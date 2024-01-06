@@ -8,6 +8,7 @@ namespace SampleRestApis.Data
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
 
+
         }
         public DbSet<Todo> Todo { get; set; }
     }
